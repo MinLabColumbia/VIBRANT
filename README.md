@@ -10,5 +10,8 @@ The measurement of single-cell drug responses is important to drug discovery, as
 ## Requirements
 The code was implemented in python 3.7.
 
+## Data
+Processed single-cell infrared spectrum data of all the drug treatments is avilable in VIBRANT_data, named as "SingleCellSpec_alldrug.mat". For each drug treatment, its corresponding single cell spectrum is named as "CELLSPEC_ALL_" + "drugname". The wavenumber matrix ("wave_all.mat") is also provided in this data to indicate the wavenumber location of each vibrational peak in the infrared spectrum.
+
 ## Codes
 The main codes for data preprocessing, predicting drug MoAs using machine learning and identifying test compounds with novel MoAs using novelty detection are included in VIBRANT_MainCodes.ipynb.
