@@ -7,7 +7,7 @@ This is the github repository for paper "VIBRANT: spectral profiling for single-
 ## Abstract
 High-content cell profiling has proven invaluable for single-cell phenotyping in response to chemical perturbations. However, methods with improved throughput, information content and affordability are still needed. We present a new high-content spectral profiling method named vibrational painting (VIBRANT), integrating mid-infrared vibrational imaging, multiplexed vibrational probes and an optimized data analysis pipeline for measuring single-cell drug responses. Three infrared-active vibrational probes were designed to measure distinct essential metabolic activities in human cancer cells. More than 20,000 single-cell drug responses were collected, corresponding to 23 drug treatments. The resulting spectral profile is highly sensitive to phenotypic changes under drug perturbation. Using this property, we built a machine learning classifier to accurately predict drug mechanism of action at single-cell level with minimal batch effects. We further designed an algorithm to discover drug candidates with new mechanisms of action and evaluate drug combinations. Overall, VIBRANT has demonstrated great potential across multiple areas of phenotypic screening.
 <p align="center">
-  <img width="1000" height="400" src="./figure1_s41592-024-02185-x.png">
+  <img width="1200" height="300" src="./figure1_s41592-024-02185-x.png">
 </p>
 
 ## Requirements
